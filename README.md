@@ -1,6 +1,6 @@
 # [Vispass](https://vispass.web.app/)
 
-_A password manager that doesn't store any passwords.\*_
+_A password manager that doesn't store any passwords._
 
 ## Purpose
 
