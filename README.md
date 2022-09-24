@@ -1,10 +1,10 @@
-# Vispass
+# [Vispass](https://vispass.web.app/)
 
 _A password manager that doesn't store any passwords.\*_
 
 ## Purpose
 
-A [`safe`](#vulnerabilities) way to access unique passwords, without actually storing them anywhere, and accessing them with _one master password_ that together with the stored data of that unique password procedurally generates the correct password for you. No verification, no decryption, nothing to [crack](https://xkcd.com/538/).
+Vispass is an attempt to a proof of concept of a [`safe`](#vulnerabilities) way to access unique passwords, without actually storing them anywhere. The passwords are accessed with _one master password_ that together with the stored data of that unique password procedurally generates the correct password for you. No verification, no decryption, nothing to [crack](https://xkcd.com/538/).
 
 ## Password Generation
 
