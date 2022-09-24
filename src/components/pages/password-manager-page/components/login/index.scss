@@ -1,0 +1,38 @@
+.passman-login-page {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  .passman-login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    width: 500px;
+    max-width: 95%;
+
+    padding: 2em;
+
+    label {
+      display: block;
+      color: #ffffff77;
+    }
+
+    .create-save-state-component {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+
+      h4,
+      p {
+        align-self: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .error-message {
+      color: var(--clr-error);
+    }
+  }
+}

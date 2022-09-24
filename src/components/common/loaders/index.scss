@@ -1,0 +1,29 @@
+@keyframes vis-loading-icon-animation-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.vis-loading-icon {
+  width: min-content;
+  height: min-content;
+  width: 100%;
+  text-align: center;
+}
+.vis-loading-icon {
+  &.spin {
+    animation: vis-loading-icon-animation-spin 1.5s infinite;
+  }
+}
+
+.vis-loader {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  font-weight: 500;
+  color: var(--clr-primary);
+}

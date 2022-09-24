@@ -1,0 +1,42 @@
+.passman-list-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-page-top-actions {
+    display: flex;
+    gap: 1em;
+  }
+  .passman-list {
+    display: flex;
+    flex-direction: column;
+
+    .passman-list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border-bottom: solid gray 1px;
+      padding: 1em;
+
+      .description {
+        h4 {
+          margin-bottom: 0.3em;
+        }
+        label {
+          display: block;
+          color: #ffffffaa;
+          font-size: small;
+        }
+      }
+      .actions {
+        display: flex;
+      }
+    }
+  }
+}

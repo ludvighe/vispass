@@ -1,0 +1,60 @@
+.vis-button-transparent {
+  background-color: transparent;
+  color: white;
+  &:hover {
+    background-color: #ffffff22;
+  }
+
+  &:active {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: translateY(1px);
+  }
+}
+
+.vis-button-primary {
+  background-color: var(--clr-primary);
+  color: var(--white);
+  &:active {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: translateY(1px);
+  }
+}
+
+.vis-button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  font-weight: bold;
+  padding: 0.5em;
+  cursor: pointer;
+  user-select: none;
+  transition: 50ms;
+
+  .vis-loading-icon {
+    animation: vis-loading-icon-animation 1.5s infinite;
+  }
+}
+
+@keyframes vis-loading-icon-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.vis-icon-button {
+  clip-path: circle(40% at 50% 50%);
+
+  padding: 1em;
+  border: none;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all 50ms ease;
+}

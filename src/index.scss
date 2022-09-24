@@ -1,0 +1,71 @@
+/* @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+
+:root {
+  /* COLORS */
+  --grey-dark: #1e1e1e;
+  --grey: #252526;
+  --grey-light: #333333;
+
+  --green: #829333;
+  --green-light: #94a43c;
+  --green-dark: #5d701f;
+
+  --orange: #c78346;
+  --orange-light: #ca8851;
+  --orange-dark: #b6692a;
+
+  --red: #aa0000;
+
+  --blue: #0b5489;
+
+  --white: #eaebe7;
+
+  scroll-behavior: smooth;
+
+  --clr-primary: var(--blue);
+  --clr-secondary: var(--green);
+  --clr-error: var(--red);
+
+  --clr-background-dark: var(--grey-dark);
+  --clr-background: var(--grey);
+  --clr-background-light: var(--grey-light);
+
+  background-color: var(--clr-background-dark);
+
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Serif", serif;
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
